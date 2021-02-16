@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  html, body{
+    height: 100%;
+  }
+  body{
+      background-color: #f0f0f0;
+      padding-top: 10px;
+      background-image: url(../images/background.png);
+  }
+  h1,h2,h3,h4,h5,h6{
+      padding:5px 5px 10px 5px;
+  }
+  h1{
+      font-size: 22px;
+  }
+  h2{
+      font-size:20px;
+  }
+  h3{
+      font-size:18px;
+  }
+  h4, h5, h6{
+      font-size:16px;
+  }
+  p{
+      padding:5px;
+  }
+  a,img{
+      border:none;
+  }
+  a{
+      color:#000;
+      text-decoration: none;
+  }
+  table{
+      border-collapse: collapse;
+      margin: 5px;
+  }
+  td,th{
+      border-right: 1px solid #333;
+      padding:5px;
+  }
+  th{
+      background-color: #cec7c2;
+  }
+  tr:nth-child(odd){
+      background-color: #cec7c2;
+  }
+  .wrapper{
+      min-height: 100%;
+      margin-bottom: -50px; /*egala cu inaltimea footer-ului*/
+      width: 960px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .footer{
+      position: relative;
+      height: 50px;
+      width: 960px;
+      text-align: center;
+      line-height: 50px;
+      font-weight: bold;
+      margin-top: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      background-color: #fff;
+      box-shadow: 2px 2px 2px 2px #000000;
+      background-image: url(../images/Melamine-wood-001.png);
+  }
+  .logo {
+      float: left;
+      margin-right: 20px;
+      width: 231px;
+  }
+  .nav {
+      float: left;
+      width: 1080px;
+      margin: 0px;
+      height: auto;
+  }
+  .nav ul {
+      list-style-type: none;
+      padding: 0px;
+      float: right;
+      margin-top: 20px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      height: auto;
+      width: 900px;
+  }
+  .nav ul li {
+      float: left;
+      background-image: url(../images/buton.png);
+      margin-left: 0px;
+      height: 54px;
+      background-size: cover;
+      alignment-adjust: baseline;
+      width: 212px;
+  }
+  .nav ul li a {
+      display: block;
+      line-height: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+      padding-right: 20px;
+      padding-left: 20px;
+  
+  
+  }
+  .nav ul li a:hover {
+      color: #000;
+      text-decoration: underline;
+  
+  }
+  .clear {
+      clear: both;
+  }
+  .error{
+      font-weight: bold;
+      padding: 10px 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border: solid 3px #FBC2C4;
+      background-color: #FBE3E4;
+      color: #8a1f11;
+      border-radius: 5px;
+  }
+  .succes{
+      font-weight: bold;
+      padding: 10px 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border: solid 3px #C6D880;
+      background-color: #E6EFC2;
+      color: #264409;
+      border-radius: 5px;
+  }
+  .message{
+      font-weight: bold;
+      padding: 10px 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border: solid 3px #f1e7bc;
+      background-color: #fefbed;
+      color: #333;
+      border-radius: 5px;
+  }
+  .center{
+      text-align:center;
+      padding: 5px 5px;
+  }
+  .content {
+      float: left;
+      width: 715px;
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom:80px;
+  }
+  .col3{
+      background-color: #000000;
+      box-shadow: 0px 2px 3px 2px #000000;
+      display: table-row;
+      background-image: url(../images/Melamine-wood-001.png);	/*border-spacing:0px 20px;*/
+  }
+  .sidebar {
+      float: left;
+      width: 215px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #000000;
+      box-shadow: 2px 2px 2px 2px #000000;
+      padding: 5px;
+      background-image: url(../images/Melamine-wood-001.png);
+  }
+  .column{
+      /*float:left;*/
+      background-color: #000000;
+      width: 228px;
+      margin-bottom: 20px;
+      /*box-shadow:0px 2px 3px 2px #999;*/
+      padding: 5px;
+      display: table-cell;
+      border-right: 2px dashed #000000;
+      background-image: url(../images/Melamine-wood-001.png);
+  }
+  .last{
+      margin-right:0px;
+      clear:right;
+      padding-right:0px !important;
+      border-right:none;
+  }
+  .column.last{
+      width: 230px;
+  }
+  .full-width{
+      width: 100%;
+      box-shadow:2px 2px 2px 2px #000000;
+      float:left;
+      border:none;
+  }
+  .full-width form{
+      padding: 5px 5px 10px 5px;
+  }
+  .full-width form p{
+      padding: 5px;
+  }
+  .full-width form label{
+      float:left;
+      width: 120px;
+  }
+  .full-width input[type="text"], .full-width input[type="email"], .full-width input[type="password"]{
+      width: 560px;
+  }
+  .full-width textarea{
+      width: 558px;
+      height: 150px;
+      resize:none;
+  }
+  .full-width table{
+      width: 705px;
+  }
+  .shift{
+      margin-left: 120px;
+  }
+  input[type="submit"],input[type="reset"],input[type="button"], .more, .button{
+      padding:5px;
+      display: inline-block;
+      text-align:center;
+      min-width:100px;
+      font-weight: bold;
+      border: 3px solid #333;
+      border-radius:5px;
+      background-color: #cec7c2;
+  }
+  
+  .more, .button{
+      color:#000;
+      text-decoration: none;
+      margin: 15px 5px;
+  }
+  .last-cell{
+      border-right:none;
+  }
+  .search{
+      padding: 5px 30px 5px 5px;
+      width:545px !important;
+      border-radius:5px;
+      border: solid 1px #333;
+      background: #fff url(../images/search.png) no-repeat 555px center;
+  }
+  .small{
+      width:165px !important;
+  }
+  .result:nth-child(even), .comentariu:nth-child(even){
+      background-color: #cec7c2;
+  }
+  .thumb, .thumb img, .preview{
+      max-width:205px;
+      height:auto;
+  }
+  .details{
+      margin:0px 5px 10px 5px;
+  }
+  .poza{
+      float:left;
+      margin:0px 10px 10px 5px;
+  }
+  .article{
+      margin:0px 5px 10px 5px;
+  }
+  .separator{
+      clear:both;
+      margin:10px 5px;
+      border-bottom: 2px dashed #000000;
+  }
+  .comentariu .autor{
+      float:left;
+  }
+  .comentariu .details{
+      float:right;
+  }
+  .data{
+      padding-left:16px;
+      background:transparent url(../images/data.png) no-repeat left center;
+  }
+  .ora{
+      padding-left:16px;
+      background:transparent url(../images/ora.png) no-repeat left center;
+  }
+  .paginare{
+      background-color: #FFF;
+      margin-bottom: 10px;
+      /*box-shadow:0px 2px 3px 2px #999;*/
+      padding: 5px;
+  }
+  
